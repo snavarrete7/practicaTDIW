@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type ="text/css" href="form.css">
+    <script src="formulari.js"></script>
+</head>
+<body>
+
+<div id="div1">
+
+    <div>
+        <h1>Benvingut, si us plau registreu-vos</h1>
+    </div>
+
+    <section>
+        <div id="formulario">
+
+            <form method="post" action="" onsubmit="return confirmaRegistre();"  >
+
+                NOM: <input type="text" name="nom" required/> <br />
+                ADREÇA ELECTRONICA: <input type="email" name="adreça electronica" required/> <br />
+                CLAU: <input type="password" name="clau"required/> <br />
+                ADREÇA: <input type="text" maxlength="30" name="adreça"required/> <br />
+                POBLACIÓ: <input type="text" maxlength="30" name="adreça"required/> <br />
+                CODI POSTAL: <input type="text" maxlength="5" minlength="5" pattern="^[0-9]+$" name="codi"required/> <br />
+                <input type="submit" value="REGISTRAR" id="boton"/>
+
+
+            </form>
+
+        </div>
+    </section>
+
+    <div id="imagenAbajo">
+        <a href="index.html" target="_blank"><img src="logoweb2.png" width="550px"/></a>
+    </div>
+
+</div>
+
+</body>
+</html>
