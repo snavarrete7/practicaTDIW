@@ -35,6 +35,21 @@ body{
     background: #1565C0;
 }
 
+#home-columns{
+
+    max-width: 1500px;
+    margin: 0 auto 20px;
+    padding: 0 1%;
+    position: relative;
+    top:150px;
+}
+
+#elements{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
 
 
 
