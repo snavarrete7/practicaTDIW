@@ -37,7 +37,7 @@ body{
 
 #home-columns{
 
-    max-width: 1500px;
+    max-width: 1700px;
     margin: 0 auto 20px;
     padding: 0 1%;
     position: relative;
@@ -45,10 +45,30 @@ body{
 }
 
 #elements{
+    list-style: none;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+
 }
+
+#camisetas{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    max-width: 1700px;
+    margin: 0 auto 20px;
+    padding: 0 1%;
+
+    position: relative;
+    top:150px;
+    left: 40px;
+
+}
+
+
 
 
 
