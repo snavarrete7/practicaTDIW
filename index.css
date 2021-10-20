@@ -17,7 +17,7 @@ body{
 
 .bottons{
     position : relative;
-    left :1205px;
+    left :1105px;
     display: flex;
     flex-flow: row;
     list-style: none;
