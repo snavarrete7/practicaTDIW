@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Register</title>
-    <link rel="stylesheet" type ="text/css" href="form.css">
-    <script src="formulari.js"></script>
+    <title>Login</title>
+    <link rel="stylesheet" type ="text/css" href="login.css">
 </head>
 <body>
 
@@ -22,29 +21,25 @@
     </ul>
 </header>
 
-<div id="div1">
+
+
+<div id="divLogin">
 
     <div>
-        <h1>Benvingut, si us plau registreu-vos</h1>
+        <h1>Benvingut, si us plau inici sessió</h1>
 
     </div>
 
     <section>
-        <div id="formulario">
+        <div id="formularioLogin">
 
             <form method="post" action="" onsubmit="return confirmaRegistre();"  >
 
-                NOM: <input type="text" name="nom" required/> <br />
                 ADREÇA ELECTRONICA: <input type="email" name="adreça electronica" required/> <br />
                 CLAU: <input type="password" name="clau"required/> <br />
-                ADREÇA: <input type="text" maxlength="30" name="adreça"required/> <br />
-                POBLACIÓ: <input type="text" maxlength="30" name="adreça"required/> <br />
-                CODI POSTAL: <input type="text" maxlength="5" minlength="5" pattern="^[0-9]+$" name="codi"required/> <br />
-                <input type="submit" value="REGISTRAR" id="boton"/>
-
+                <input type="submit" value="LOGIN" id="boton"/>
 
             </form>
-
         </div>
     </section>
 
@@ -53,6 +48,9 @@
     </div>
 
 </div>
+
+
+
 
 </body>
 </html>
