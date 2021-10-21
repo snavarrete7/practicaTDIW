@@ -68,7 +68,7 @@ h1{
 }
 
 .bottons{
-    position : relative;
+    position : sticky;
     left :1105px;
     display: flex;
     flex-flow: row;
