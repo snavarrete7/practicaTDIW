@@ -8,12 +8,30 @@
 </head>
 <body>
 
+<?php
+$action = isset($_GET['action']) ? $_GET['action'] : null;
+switch($action){
+    case 'login':
+        require __DIR__ . "login.html";
+        break;
+    case 'register':
+        require __DIR__ ."formulari.html";
+        break;
+    case 'carrito':
+        require __DIR__ ."index.php";
+        break;
+    default:
+        require __DIR__ ."index.php";
+        break;
+}
+?>
+
 <div id="layout">
     <header style="grid-area: header1">
         <ul class="navigation">
-            <a href="index.html" target="_blank"><img src="logoweb.png" width="100px"/></a>
+            <a href="index.php" target="_blank"><img src="logoweb.png" width="100px"/></a>
             <section class="bottons">
-                <li> <a href="index.html">Home</a></li>
+                <li> <a href="index.php">Home</a></li>
                 <li><a href="login.html">Login</a></li>
                 <li><a href="formulari.html">Register</a></li>
                 <li><a href="#">Carrito</a></li>
